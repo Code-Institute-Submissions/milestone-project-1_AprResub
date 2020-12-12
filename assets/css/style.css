@@ -32,8 +32,8 @@ nav ul{
 
 nav li{
     display:inline-block;
-    margin-right: 60px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 30px;
     padding-top: 22px;
 }
 
@@ -42,8 +42,12 @@ nav ul > li > a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
 nav a:hover {
-    color: #000;
+    color: RGB(128,156,206) ;
 }
