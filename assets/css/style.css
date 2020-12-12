@@ -6,4 +6,17 @@
 .logo{
     width:auto;
     height:50px;
+    float: left;
 }
+
+header::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+nav{
+    float:right;
+    color: red;
+}
+section{color:red;}
