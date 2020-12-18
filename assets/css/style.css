@@ -1,53 +1,49 @@
-body{
-    margin: 0;
-    font-family:'Work Sans', sans-serif;
-    font-weight: 400;
+*{
+  margin:0;
+  padding:0;
 }
 
-
-
-.container{
-    width: 80%;
-    margin: 0 auto;
+.the-container{
+  width:80%;
+  margin: 0 auto;
 }
 
-.logo{
-    width:auto;
-    height:50px;
-    float: left;
-    padding:10px 0;
+.the-navbar{
+  width:100%;
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 2px solid red;
+}
+.the-logo{
+  height: 60px;
+
+  float: left;
 }
 
-header::after{
-    content: '';
-    display:table;
-    clear:both;
+/* this is for the ul tag */
+
+.menu{
+  float:right;
+
 }
 
-nav ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+.menu li{
+  float:left;
+  width: 120px;
+  height: 70 px;
+  line-height: 70px;
+  text-align: center;
+  list-style: none;
 }
 
-nav li{
-    display:inline-block;
-    margin-right: 40px;
-    margin-left: 30px;
-    padding-top: 22px;
+.menu li a{
+  color:#000;
+  text-decoration: none;
+  font-family: calibri, "sans-serif";
+  text-transform: uppercase;
 }
 
-nav ul > li > a {
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-}
-
-nav a:hover {
-    color: RGB(128,156,206) ;
+.menu li:hover{
+  background: #dc3545;
 }
