@@ -5,55 +5,67 @@
     <meta name="viewport" content="width=device-width">
     <title>my website</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8fe399b56f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   </head>
   <body class="body">
-    <div class="the-navbar">
-      <div class="the-container">
-        <div class="logo_div">
-          <a href="#"><img src="assets/images/logo.png" alt="" class="the-logo"></a>
-        </div>
-        <div class="navbar_links">
-          <ul class="menu">
-            <li><a href="#">Vi i teamet</a></li>
+    <header>
+      <div class="logo"><a href="#"><img src="assets/images/logo.png" alt="" class="the-logo"></a></div>
+      <nav>
+        <ul>
+            <li><a href="#" class="active">Vi i teamet</a></li>
             <li><a href="#">Behandlingar</a></li>
             <li><a href="#">Hitta hit</a></li>
             <li><a href="#">Kontakta oss</a></li>
             <li><a href="#">Aktuellt</a></li>
-          </ul>
-        </div>
+        </ul>
+      </nav>
+      <div class="menu-toggle"><i class="fas fa-bars"></i>
       </div>
-
-    </div>
-    <img src="assets/images/test-tprak2.jpg" alt="" class="below-navbar-img">
+    </header>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+          $('nav').toggleClass('active')
+        })
+      })
+    </script>
+    <img src="assets/images/stockholm.jpg" alt="" class="below-navbar-img">
     <section>
+        <div class="container-fluid">
         <div class="before-first-row">
-            <h2>Om praktiken</h2>
+            <h2 class="title-sec-1">Om praktiken</h2>
         </div>
         <div class="before-first-row-2">
             <p>Verksamheten har pågått i nuvarande lokaler sedan 1976, då Per Wedendal övertog kliniken efter sin far, som varit verksam i lokalerna sedan 1964.</p>
         </div>
-        <div class="container">
+        </div>
+        <div class="container-fluid">
             <div class="row first-row">
-                <div class="col-1"></div>
-                <div class="col-4 text-right">
+                <div class="col-2 col-md-1"></div>
+                  <img class="d-md-none icons"                    src="assets/images/icons8-anchor-48.png" alt="">
+                <div class="col-10 col-md-4 text-md-right">
                     <h5>Vår filosofi</h5>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 160s.</p>
                 </div>
-                <div class="col-1">
+                <div class="d-none d-md-block col-md-1">
                     <img class="icons" src="assets/images/icons8-anchor-48.png" alt="">
                 </div>
-                <div class="col-1">
+                <div class="d-none d-md-block col-md-1">
                     <img class="icons" src="assets/images/icons8-scales-48.png" alt="">
                 </div>
-                <div class="col-4 text-left">
+                <div class="col-md-4 text-left">
                     <h5>Tand hygienist</h5>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 160s.</p>
                 </div>
-                <div class="col-1"></div>
+                <div class="col-md-1"></div>
             </div>
-        </div>
-        <div class="container">
+        
+        
         <div class="row second-row">
             <div class="col-1"></div>
             <div class="col-4 text-right">
@@ -71,41 +83,74 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 160s.</p>
             </div>
             <div class="col-1"></div>
-        </div>
-        </div>
-    </section>
-    <img class="second-image" src="assets/images/test-tprak2.jpg" alt="">
-    <section>
-        <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <img class="profile-picture-1" src="assets/images/Mammaegulligast.png" alt="">
-            </div>
-            <div class="col-9 section-2-row-1">
-                <h4>Christin Fischer</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio provident eos deleniti iste. Corrupti laborum iste aliquam animi fugit odit quam ducimus reiciendis expedita mollitia dolores, et ipsa accusantium! Accusantium.</p>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-2">
-            </div>
-            <div class="col-7 section-2-row-1">
-                <h4>Christin Fischer</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio provident eos deleniti iste. Corrupti laborum iste aliquam animi fugit odit quam ducimus reiciendis expedita mollitia dolores, et ipsa accusantium! Accusantium.</p>
-            </div>
-            <div class="col-3">
-                <img class="profile-picture-1" src="assets/images/Mammaegulligast.png" alt="">
-            </div>
-        </div>
-        </div>
-
         
-    
-
+        </div>
+        </div>
+    </section>
+    <img class="second-image" src="assets/images/stockholm-2.jpg" alt="">
+    <section>
+        <!-- I've added the div below -->
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="profile-picture-1 displayed" src="assets/images/Mammaegulligast.png" alt="">
+            </div>
+            <div class="col-md-7 section-2-row-1 row-1-text-1">
+                <h4>Christin Fischer</h4>
+                <p>Mina första levnadsår växte jag upp på Lidingö utanför Stockholm men flyttade sedan med mina föräldrar till Paris och USA. I min uppväxt inspirerades jag av mina föräldrars akademiska nyfikenhet och stora intresse av såväl konst som musik. Jag målade, skulpterade mm och var samtidigt mycket intresserad av naturvetenskap. Kombinationen av mina intressen fann jag i mitt yrkesval som tandläkare. Jag tog min examen som tandläkare 1988 på Tandläkarhögskolan Karolinska Institutet. Mitt stora intresse för skidåkning tog mig till mitt första jobb i Schweiz där jag jobbade som tandläkare i 3 år. Jag arbetade därefter som produktspecialist i Paris innan jag flyttade tillbaks till Stockholm där jag träffade min nuvarande make och arbetskollega Michael Fischer. Det som inspirerar mig som tandläkare är att skapa vackra bett. Det kräver ju både problemlösning och kreativitet!</p>
+            </div>
+            <div class="col-md-2"></div>
+        
+        </div>
+        
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-7 section-2-row-1">
+                <h4>Michael Fischer</h4>
+                <p>Hej! Michael Fischer här,och jag halkade in på tandvård av en slump (Min storebror som är Tandläkare sökte hastigt hjälp på sin mottagning,och jag fick rycka in 19 år gammal utan erfarenhet) Men det gick bra,och efter Tandhygienistutbildning i Gävle jobbar jag sen 20 år tillbaks ihop med min Fru Christin Fischer som är Tandläkare. Vi delar på våran mottagning här på Läkarhuset Riddargatan 12 och jobbar ihop med våran Tandsköterska Sanna. Mitt specialområde är bla att förebygga och behandla tandköttsproblem som med tiden kan leda till tandlossning. Vi jobbar båda förebyggande,då hela friska tänder med ett fräscht tandkött är både hälsosamt och ekonomiskt fördelaktigt för Dig.Vi jobbar med den modernaste utrusning och anlitar dom bästa Tandtenikerna,samt samarbetar och remitterar om det behövs till dom bästa specialisterna.   Vi hoppas att Du som kund ska trivas ihop med oss,så att Du och vi som ”Team” ser till att du får bästa förutsättningen för ett bra tandstatus. Glada tandvårdshälsningar, Michael.</p>
+            </div>
+            <div class="col-12 col-md-2">
+                <img class="profile-picture-2 profile-picture-2-mq" src="assets/images/pappaesotast.png" alt="">
+            </div>
+            
+            <div class="col-md-1"></div>
+        
+        </div>
+        </div>
+        <div class="vl"></div>
     </section>
     
-   
+    
+    <div class="footer">
+        <div class="container-fluid">
+        <div class="footer-content">
+            <div class="row last-row">
+            <div class="col-5 col-sm-3 footer-section about">
+                <img src="assets/images/logo.png" alt="" class="logo-footer">
+            </div>
+            <div class="col-2 col-sm-1">
+            <div class="vertical"></div>
+            </div>
+            <div class="col-5 col-sm-4 footer-section copyright">
+                <h5>Copyright @2021</h5>
+            </div>
+            <div class="d-none d-sm-block col-sm-1">
+            <div class="vertical"></div>
+            </div>
+            <div class="d-none d-sm-block col-sm-3 footer-section contact-form">
+                <div class="contact"></div>
+                <div><i class="fas fa-home"></i>Riddargatan 12, Läkarhuset Riddargatan, Stockholm</div>
+                <div><i class="fas fa-phone"> </i>08 611 12 15</div>
+            </div>
+            </div>
+            <div class="contact"></div>
+              <div><i class="fas fa-home"></i>Riddargatan 12, Läkarhuset Riddargatan, Stockholm</div>
+              <div><i class="fas fa-phone"> </i>08 611 12 15</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
   </body>
 </html>
