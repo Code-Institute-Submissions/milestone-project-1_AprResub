@@ -58,7 +58,7 @@ body{
     margin-top: 80px;
 }
 
-/*NAVBAR*/
+/*NAVBAR followed a youtube tutorial*/
 
 header{
   position: absolute;
@@ -349,7 +349,7 @@ i{
   }
 }
 
-/* MQ Footer */
+/* MQ Footer (helped by youtube tutorial) */
 
 @media only screen and (max-width: 576px) {
   .footer{
