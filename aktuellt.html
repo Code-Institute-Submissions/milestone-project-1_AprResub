@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>MS project 1</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8fe399b56f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body">
+<!-- NAVBAR -->
+    <header>
+        <div class="logo"><a href="./index.html"><img src="assets/images/logo-white.png" alt="" class="the-logo"></a></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Vi i teamet</a></li>
+                <li><a href="#contact-and-adress">Hitta hit</a></li>
+                <li><a href="#contact-and-adress">Kontakta oss</a></li>
+                <li><a href="./aktuellt.html">Aktuellt</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <section>
+      <div class="aktuellt">
+        <h1>Aktuellt</h1>
+      </div>
+    </section>
+    <section>
+      <div class="text-akt">
+      <h3 class="text-akt-h3">Coronautbrottet</h3>
+
+      <p>Samlad information om smittspridning, hur du skyddar dig och andra och vad du bör tänka på hittar du hos Folkhälsomyndigheten och 1177 Vårdguiden. På vår praktik följer vi de samlade strikta rekommendationer för hygienrutiner som gäller inom tandvården för att du ska känna dig trygg hos oss. De generella råden för att skydda sig själv och andra</p>
+      <ul class="text-akt-ul" style="list-style: inside; margin-left:50px;">
+        <li>Tvätta händerna ofta</li>
+        <li>hosta och nys i armvecket</li>
+        <li>Undvik att röra ögon, näsa och mun</li>
+        <li>Stanna hemma när du är sjuk</li>
+        <li>Använd handsprit om du inte har tillgång till tvål och vatten</li>
+      </ul>
+
+      <h3>Podcast</h3>
+      <p>Följ vår podcast men nya avsnitt varje månad "Tandläkarpodden". Vi tar upp alla typer av ämnen inom tandvården för allmänheten. Som exempel pratar vi om tandvårdsrädsla, den osynliga tandställningen och hur man bäst undviker onödiga tandläkarbesök :).</p>
+      </div>
+
+    </section>
+   <div class="footer" style="margin-top:200px;" id="contact-and-adress">
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="row last-row">
+                    <div class="col-5 col-sm-3 footer-section white-logo">
+                        <img src="assets/images/logo-white.png" alt="" class="logo-footer">
+                    </div>
+                    <div class="col-2 col-sm-1">
+                        <div class="vertical"></div>
+                    </div>
+                    <div class="col-5 col-sm-4 footer-section copyright">
+                        <h5>Copyright @2021</h5>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-1">
+                        <div class="vertical"></div>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-3 footer-section contact-form">
+                        <div class="contact"></div>
+                        <div><i class="fas fa-home"></i>Riddargatan 12, Läkarhuset Riddargatan, Stockholm</div>
+                        <div><i class="fas fa-phone"> </i>08 611 12 15</div>
+                    </div>
+                </div>
+                <div class="contact-2">
+                    <div><i class="fas fa-home"></i>Riddargatan 12, Läkarhuset Riddargatan, Stockholm</div>
+                    <div><i class="fas fa-phone"> </i>08 611 12 15</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -14,27 +14,18 @@
 <body class="body">
 <!-- NAVBAR -->
     <header>
-        <div class="logo"><a href="#"><img src="assets/images/logo-white.png" alt="" class="the-logo"></a></div>
+        <div class="logo"><a href="./index.html"><img src="assets/images/logo-white.png" alt="" class="the-logo"></a></div>
         <nav>
             <ul>
                 <li><a href="#vi-i-teamet">Vi i teamet</a></li>
-                <li><a href="#">Behandlingar</a></li>
                 <li><a href="#contact-and-adress">Hitta hit</a></li>
                 <li><a href="#contact-and-adress">Kontakta oss</a></li>
-                <li><a href="#">Aktuellt</a></li>
+                <li><a href="./aktuellt.html">Aktuellt</a></li>
             </ul>
         </nav>
         <div class="menu-toggle"><i class="fas fa-bars"></i>
         </div>
     </header>
-    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.menu-toggle').click(function () {
-                $('nav').toggleClass('active')
-            })
-        })
-    </script>
 <!-- First (Full width) image-->
     <img src="assets/images/stockholm.jpg" alt="" class="below-navbar-img">
 <!-- Section 1 -->
@@ -85,7 +76,7 @@
                 </div>
                 <div class="col-9 col-sm-10 col-lg-4 text-lg-left text-4">
                     <h5>Behandlingsrutiner</h5>
-                    <p>I huvudsak går våra behandlingar ut på att jobba förebyggande och långsiktigt tillsammans med patienten. På praktiken utför vi ffa fasader, kron och bro konstruktioner. Vi har också ett stort nätverk av specialisttandläkare som vi samarbetar med. </p>
+                    <p>I huvudsak går våra behandlingar ut på att jobba förebyggande och långsiktigt tillsammans med patienten. På praktiken utför vi ffa fasader, kron och bro konstruktioner. Vi har också ett stort nätverk av specialisttandläkare som vi samarbetar med. För att få reda på mer om behandlingar, kontakta oss.</p>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -174,5 +165,13 @@
             </div>
         </div>
     </div>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
 </body>
 </html>
