@@ -1,4 +1,4 @@
-# Christin- and Michael Fischer
+# Christin och Michael
 
 ## Dentist and dental hygienist
 
@@ -45,5 +45,6 @@ The customer goals of this website are:
 
 ##### Wireframe mockups: 
 
-
+- [Home](assets/wireframes/wireframe.pdf)
+- [News/"aktuellt"](assets/wireframes/wireframe.pdf) 
 
