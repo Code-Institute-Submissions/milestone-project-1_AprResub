@@ -76,3 +76,13 @@ The news/"aktuellt" page features a news/recent information section with relevan
 - Add clickable images with correspondent text on desktop and slides of pictures with correspondent text as shown in the wireframes. This was the original plan but wasn't added because it would've taken too much time and required javascript.
 - Improve styling on the text.
 
+## Technologies Used
+
+- This project uses HTML, CSS and Javascript programming languages.
+- [Gitpod](https://gitpod.io) - This developer used **Gitpod** for their IDE while building the website.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
+    - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [jQuery](https://jquery.com/)
+    - The project uses **jQuery** to reference Javascript needed for the responsive navbar.
+
