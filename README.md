@@ -27,7 +27,6 @@ The customer goals of this website are:
 * A dentist/dental hygienist.
 * Information.
 
-
 ##### This project is the best way to help them achieve these things because:
 * You can't get the information anywhere else, except in person with the dentist and/or dental hygienist
 * This website is:
@@ -40,8 +39,6 @@ The customer goals of this website are:
 2. As a new visitor to the website, i want to learn more about their treatments and its cost.
 3. As a visitor to the webstite, i want to find contact information.
 4. As a visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
-
-
 
 ##### Wireframe: 
 
@@ -78,11 +75,66 @@ The news/"aktuellt" page features a news/recent information section with relevan
 
 ## Technologies Used
 
-- This project uses HTML, CSS and Javascript programming languages.
-- [Gitpod](https://gitpod.io) - This developer used **Gitpod** for their IDE while building the website.
+- I used HTML, CSS and Javascript programming languages.
+- [Gitpod](https://gitpod.io) - I used **Gitpod** for their IDE while building the website.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
-    - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
-    - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+    - I used **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
+    - I used BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [jQuery](https://jquery.com/)
-    - The project uses **jQuery** to reference Javascript needed for the responsive navbar.
+    - I used **jQuery** to reference Javascript needed for the responsive navbar.
 
+## Testing 
+
+Testing information can be found in separate [TESTING.md file](TESTING.md)
+
+## Deployment
+
+This project was developed using the [Gitpod IDE](https://gitpod.io), committed to git and pushed to GitHub.
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **AJGreaves/portrait-artist**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser 
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+4. Navigate to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist)
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone wi
+ll be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
+## Credits
+
+### Content
+- The text for the Home page and News(/"Aktuellt") page was created for and by Michael and Christin Fischer.
+
+### Code
+- I recieved help from a [tutorial](https://www.youtube.com/watch?v=gt8zOLQ8A0w) on how to make a responsive navbar with a logo.
+- I recieved help from a [tutorial](https://www.youtube.com/watch?v=vsBaCblIOuQ) on how to make a responsive footer.
