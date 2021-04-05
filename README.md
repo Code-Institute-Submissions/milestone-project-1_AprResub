@@ -4,9 +4,9 @@
 
 ---
 
-A comprehensive website for a small dentist practise in Stockholm, Sweden. Website features an about page, a profile page, contact information and a relevant information page. The primary goal of the website is to inform and align with the brand of being a small dentistry company.
+A comprehensive website for a small dentist practice in Stockholm, Sweden. Website features an about page, a profile page, contact information and a relevant information page. The primary goal of the website is to provide information about the practice and its workers.
 
-The business goals of this website are:
+The business goals of the website are:
 * Build brand awareness
 * Be a source of information
 
@@ -19,25 +19,25 @@ The customer goals of this website are:
 #### Ideal client
 
 ##### The ideal client for this business is:
-* Swedish speaking
-* Lives/resident in Sweden (can live anywhere though)
+* Swedish/english speaking
+* Lives/resident in Sweden
 * Older than 23.
 
 ##### Visitors to this website are searching for:
 * A dentist/dental hygienist.
-* Information.
+* Information about the practice and/or the workers.
 
 ##### This project is the best way to help them achieve these things because:
-* You can't get the information anywhere else, except in person with the dentist and/or dental hygienist
+* You can't get the information anywhere else, except in person with the dentist and/or dental hygienist.
 * This website is:
     * Easy to navigate.
-    * Steps the client through easy to understand learnable information.
+    * Steps the client through easily understandable information.
     * Gives the client the information they need without overloading them.
 
 ##### Client stories
-1. As a new visitor to the website, I want learn more about the staff and their approach, so I can feel more connected with them and get a better understanding if they would be a good choice for me to go to.
+1. As a new visitor to the website, I want to learn more about the staff and their approach, so I can feel more connected with them and get a better understanding if they would be a good choice for me.
 2. As a new visitor to the website, i want to learn more about their treatments and its cost.
-3. As a visitor to the webstite, i want to find contact information.
+3. As a visitor to the website, i want to find contact information.
 4. As a visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
 
 ##### Wireframe: 
@@ -69,8 +69,8 @@ The news/"aktuellt" page features a news/recent information section with relevan
 
 ### Features to Implement in future
 - Option to choose language to either english or swedish. This allows english speaking customers to view the website and get a better understanding of the clinic.
-- Add a "treatments" page, which provides more information of the treatments used by the dentist.
-- Add clickable images with correspondent text on desktop and slides of pictures with correspondent text as shown in the wireframes. This was the original plan but wasn't added because it would've taken too much time and required javascript.
+- Add a "treatments" page, which provides more information about the treatments used by the dentist.
+- Add clickable images with correspondent text on desktop, and slides of pictures with correspondent text as shown in the wireframes. This was the original plan but wasn't added because it would've taken too much time and required javascript.
 - Improve styling on the text.
 
 ## Technologies Used
