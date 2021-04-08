@@ -206,6 +206,7 @@ h1::after {
 }
 
 /* FOOTER */
+
 .footer{
     background: #262626;
     color: #d3d3d3;
@@ -218,7 +219,7 @@ h1::after {
 }
 
 .contact{
-  margin-top:125px;
+  margin-top:80px;
 }
 
 i{
@@ -237,6 +238,31 @@ i{
   left: 50%;
   margin-left: -3px;
   
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
 
 /* Making sure footer is at the bottom */
@@ -350,9 +376,21 @@ i{
 
 /* MQ Footer (helped by youtube tutorial) */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 808px){
   .footer{
     height: 400px;
+  }
+}
+
+@media only screen and (max-width:576px){
+    .footer{
+        height: 480px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 808px){
+  .vertical{
+    height:300px;
   }
 }
 
