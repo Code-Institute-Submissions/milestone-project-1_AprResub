@@ -51,14 +51,14 @@ Each page features a responsive **navigation bar** with conventional placing of 
 Each page has a **footer** with **copyright information** and a **logo** (bottom right) aswell as contact information.
 
 #### Home
-The main page features two pictures of Stockholm (where the dental clinic is at), an "about the clinic" section and an "about the dentist/dental hygienist" section.
+The main page features two pictures of Stockholm (where the dental clinic is at), an "about the dental practice" section and an "about us" section.
 The purpose of the two pictures of Stockholm and the UX is to give a positive emotional response to the user.
-The "about the clinic" section has the text on the right and left side of the icons which are in the middle for desktop and tablet. On mobile the icons are to the far left and the correspondent text to the right of the icon.
-The "about the dentist/dental hygienist" section has the first profile picture to the right and the correspondent text to the left of it. The second profile picture is to the right and the correspondent text to the left of it
+The "about the dental pracice" section has the text on the right and left side of the icons which are in the middle for desktop and tablet. On mobile the icons are to the far left and the correspondent text to the right of the icon.
+The "about us" section has the first profile picture to the right and the correspondent text to the left of it. The second profile picture is to the right and the correspondent text to the left of it.
 
-#### News/"aktuellt"
+#### News/"Aktuellt"
 
-The news/"aktuellt" page features a news/recent information section with relevant information.
+The news/"Aktuellt" page features a "relevant information" section with relevant information.
 
 ### Existing features
 

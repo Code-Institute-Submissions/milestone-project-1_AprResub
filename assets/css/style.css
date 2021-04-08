@@ -148,7 +148,7 @@ header > nav > ul > li > a.active{
   }
 }
 
-/* Section 1 */
+/* Section 1, About the Dental Practice section */
 
 h2::after {
     content: '';
@@ -192,7 +192,7 @@ h1::after {
 }
 
 
-/* Section 2 */
+/* Section 2, About Us section */
 
 .about-us{
     text-align: center;
@@ -287,7 +287,7 @@ i{
   }
 }
 
-/* MQ Section 1 */
+/* MQ Section 1, About the Dental Practice section*/
 
 @media only screen and (max-width: 385px) {
   .icons{
@@ -306,7 +306,7 @@ i{
     margin-left:30px;
   }
 }
-/* MQ Section 2 */
+/* MQ Section 2, About Us section */
 
 @media only screen and (max-width: 1255px) {
   .profile-picture-1{
@@ -464,7 +464,7 @@ i{
 }
 
 
-/* Aktuellt.html */
+/* Section 3, Relevant Information section */
 
 .aktuellt{
   text-align: center;
@@ -476,7 +476,7 @@ i{
   margin-left: 30px;
 }
 
-/* Aktuellt.html MQ */
+/* MQ Section 3, Relevant Information section */
 
 @media only screen and (max-width: 480px) {
   .text-akt h3{
