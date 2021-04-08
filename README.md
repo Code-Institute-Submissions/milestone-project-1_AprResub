@@ -139,3 +139,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### Code
 - I recieved help from a [tutorial](https://www.youtube.com/watch?v=gt8zOLQ8A0w) on how to make a responsive navbar with a logo.
 - I recieved help from a [tutorial](https://www.youtube.com/watch?v=vsBaCblIOuQ) on how to make a responsive footer.
+- I recieved help from [w3schools](https://www.w3schools.com/) on understanding concepts and adding social links.
