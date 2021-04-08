@@ -92,12 +92,12 @@ Testing information can be found in separate [TESTING.md file](TESTING.md)
 
 This project was developed using the [Gitpod IDE](https://gitpod.io), committed to git and pushed to GitHub.
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/peter199834/milestone-project-1), the following steps were taken: 
 1. Log into GitHub. 
-2. From the list of repositories on the screen, select **AJGreaves/portrait-artist**.
+2. From the list of repositories on the screen, select **peter199834/milestone-project-1**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
-5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**.
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
@@ -105,19 +105,19 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 ### How to run this project locally
 
 To clone this project into Gitpod you will need:
-1. A Github account. [Create a Github account here](https://github.com/)
-2. Use the Chrome browser 
+1. A Github account. [Create a Github account here](https://github.com/).
+2. Use the Chrome browser.
 
 Then follow these steps:
-1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
-2. After installation, restart the browser
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/).
+2. After installation, restart the browser.
 3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
-4. Navigate to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist)
-5. Click the green "Gitpod" button in the top right corner of the respository
+4. Navigate to the [Project GitHub repository](https://github.com/peter199834/milestone-project-1).
+5. Click the green "Gitpod" button in the top right corner of the respository.
 6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
 
 To work on the project code within a local IDE such as VSCode, Pycharm etc:
-1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
+1. Follow this link to the [Project GitHub repository](https://github.com/peter199834/milestone-project-1).
 2. Under the repository name, click "Clone or download".
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
 4. In your local IDE open the terminal.
@@ -126,8 +126,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 ```console
 git clone https://github.com/USERNAME/REPOSITORY
 ```
-7. Press Enter. Your local clone wi
-ll be created.
+7. Press Enter. Your local clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
@@ -143,4 +142,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Other
 
-Special thanks to Anna Greaves, for uploading and sharing her educational purposed website to [github](https://github.com/AJGreaves/portrait-artist/) and giving permission to use her readme as an example to follow. It was very helpful and made it easier to structure the readme.
+Special thanks to Anna Greaves, for uploading and sharing her educational purposed website to [github](https://github.com/AJGreaves/portrait-artist/) and giving permission to use her readme as an example to follow. It was very helpful and made it easier to structure the readme. I did not copy any essential parts of Annas readme, however i did not change the "How to run this project locally" and "Deployment" part except for some of the links, since i saw no purpose in doing so. I would have written the same steps, but maybe using some different words. Rewriting it would make no functional difference.
