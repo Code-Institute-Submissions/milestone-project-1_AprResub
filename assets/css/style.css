@@ -194,15 +194,21 @@ h1::after {
 
 /* Section 2 */
 
+.about-us{
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
 .profile-picture-2{
-    margin-top:140px;
+    margin-top: 140px;
 }
 
 .section-2-row-1{
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .section-2-row-2{
-  margin-top:140px;
+  margin-top: 110px;
 }
 
 /* FOOTER */
