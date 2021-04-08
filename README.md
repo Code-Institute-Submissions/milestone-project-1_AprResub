@@ -55,6 +55,7 @@ The main page features two pictures of Stockholm (where the dental clinic is at)
 The purpose of the two pictures of Stockholm and the UX is to give a positive emotional response to the user.
 The "about the dental pracice" section has the text on the right and left side of the icons which are in the middle for desktop and tablet. On mobile the icons are to the far left and the correspondent text to the right of the icon.
 The "about us" section has the first profile picture to the right and the correspondent text to the left of it. The second profile picture is to the right and the correspondent text to the left of it.
+Note: The sections have been called other names than "About the dental practice" and "About Us". You may see this reflected in commits but I changed the names to "About Us" and "About the dental practice".
 
 #### News/"Aktuellt"
 
