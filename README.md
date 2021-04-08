@@ -42,7 +42,7 @@ The customer goals of this website are:
 
 ##### Wireframe: 
 
-- [Home and news/"aktuellt"](assets/wireframes/wireframe.pdf)
+- [Home and news/"aktuellt"](wireframe.pdf)
 
 
 ## Features
